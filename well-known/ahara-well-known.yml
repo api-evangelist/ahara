@@ -1,0 +1,139 @@
+generated: '2026-09-13'
+method: probed
+source: >-
+  Live anonymous probes of the named /.well-known/ discovery path list plus /apis.json,
+  /apis.yml and /llms.txt, run 2026-09-13 against every host this record knows: the current
+  company web presence (foodhealthcollective.org, the Food Health Collective site AHARA
+  rebranded to in late 2024) and the legacy AHARA hosts (ahara.com, eatahara.com). Nothing
+  was found. No `WellKnown` or `SecurityTxt` pointer is emitted, because every path missed —
+  this file records an absence, not a surface.
+note: >-
+  The legacy hosts cannot be probed over HTTP at all. ahara.com is registrar-suspended
+  (Amazon Registrar, clientHold) and resolves NXDOMAIN on every label, including the
+  app/auth/api subdomains certificate transparency shows once existed; eatahara.com resolves
+  but fails the TLS handshake (tlsv1 alert internal error) on 443 while port 80 301s to it,
+  so it serves nothing. Those rows carry status 0 with the transport error recorded, not a
+  fabricated HTTP code.
+hosts:
+- host: foodhealthcollective.org
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/api-catalog.json
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+  - path: /.well-known/apis.json
+    status: 404
+  - path: /.well-known/aauth-resource.json
+    status: 404
+  - path: /.well-known/ucp.json
+    status: 404
+  - path: /.well-known/acp.json
+    status: 404
+  - path: /apis.json
+    status: 404
+  - path: /apis.yml
+    status: 404
+  - path: /llms.txt
+    status: 404
+- host: www.foodhealthcollective.org
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/api-catalog.json
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+  - path: /.well-known/apis.json
+    status: 404
+  - path: /.well-known/aauth-resource.json
+    status: 404
+  - path: /.well-known/ucp.json
+    status: 404
+  - path: /.well-known/acp.json
+    status: 404
+  - path: /apis.json
+    status: 404
+  - path: /apis.yml
+    status: 404
+  - path: /llms.txt
+    status: 404
+- host: eatahara.com
+  error: tls-handshake-failure
+  documents:
+  - path: /.well-known/security.txt
+    status: 0
+    note: TLS handshake failed (tlsv1 alert internal error) on every path
+  - path: /.well-known/agent-card.json
+    status: 0
+  - path: /.well-known/agent.json
+    status: 0
+  - path: /apis.json
+    status: 0
+  - path: /llms.txt
+    status: 0
+- host: www.eatahara.com
+  error: tls-handshake-failure
+  documents:
+  - path: /.well-known/security.txt
+    status: 0
+  - path: /.well-known/agent-card.json
+    status: 0
+  - path: /.well-known/agent.json
+    status: 0
+  - path: /apis.json
+    status: 0
+  - path: /llms.txt
+    status: 0
+- host: ahara.com
+  error: nxdomain-registrar-clienthold
+  documents:
+  - path: /.well-known/security.txt
+    status: 0
+    note: NXDOMAIN — domain on registrar clientHold, no authoritative DNS answer
+  - path: /.well-known/agent-card.json
+    status: 0
+  - path: /.well-known/agent.json
+    status: 0
+  - path: /apis.json
+    status: 0
+  - path: /llms.txt
+    status: 0
+- host: www.ahara.com
+  error: nxdomain-registrar-clienthold
+  documents:
+  - path: /.well-known/security.txt
+    status: 0
+  - path: /.well-known/agent-card.json
+    status: 0
+  - path: /.well-known/agent.json
+    status: 0
+  - path: /apis.json
+    status: 0
+  - path: /llms.txt
+    status: 0

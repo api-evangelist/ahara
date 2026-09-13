@@ -1,0 +1,22 @@
+generated: '2026-09-13'
+method: searched
+source: https://foodhealthcollective.org/partner
+docs:
+- https://foodhealthcollective.org/
+- https://foodhealthcollective.org/employers
+- https://foodhealthcollective.org/payers
+- https://foodhealthcollective.org/partner
+- https://foodhealthcollective.org/app
+plan_count: 0
+plans: []
+note: >-
+  AHARA (now Food Health Collective) publishes no pricing page and no plan tiers. Every
+  crawled page of the live company site — home, /how-it-works, /app, /employers, /payers,
+  /partner, /about-us, /mission, /leadership, /news — was read on 2026-09-13 and none names a
+  price, a tier, a quota or a billing period; the sitemap contains no /pricing or /plans URL.
+  The commercial motion is contact-sales: health plans, providers and employers are routed to
+  a "contact us today" form on /partner and to contact@foodhealthcollective.org / (866)
+  552-4272, and the consumer app (Food Health Rx, iOS) is reached through an employer or plan
+  sponsor rather than a self-serve checkout. This is a recorded zero, not an unchecked field —
+  and it is a zero about the company's SERVICE, since AHARA sells no API and therefore has no
+  API pricing of any kind.

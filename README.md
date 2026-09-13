@@ -64,5 +64,22 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-AHARA is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+AHARA is a Los Angeles personalized-nutrition company founded in 2022 by physician nutritionist
+Dr. Melina Jampolis and The RealReal founder Julie Wainwright, funded with a $10.25M seed round led
+by Greycroft. It pairs a health questionnaire and at-home genetic, epigenetic and blood-biomarker
+testing with registered-dietitian guidance and a consumer app (Food Health Rx) that turns the
+results into a personalized food-as-medicine plan, sold direct to consumers and through employers,
+health plans and providers.
+
+In late 2024 the company rebranded as **Food Health Collective** and moved its web presence to
+[foodhealthcollective.org](https://foodhealthcollective.org/). The original `ahara.com` domain is
+now registrar-suspended (Amazon Registrar `clientHold`, NXDOMAIN on every label) and the
+`ahara.health` Squarespace site has expired.
+
+**No API surface.** Contract discovery run 2026-09-13 across every host this record knows found no
+developer portal, documentation, API reference, machine-readable specification, GitHub organization
+or first-party package. The recorded probes are in `well-known/ahara-well-known.yml` (52 paths, six
+hosts, every one a miss) and the coverage finding is stamped as `x-coverage: none /
+no-developer-program` in `apis.yml`.
+
+- https://foodhealthcollective.org/
