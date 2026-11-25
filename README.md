@@ -80,13 +80,13 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Ahara Domain Security](https://apis.io/security/ahara/ahara-domain-security/)
+- [AHARA Domain Security](https://apis.io/security/ahara/ahara-domain-security/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Ahara Plans Pricing](https://apis.io/plans/ahara/ahara-plans-pricing/)
+- [AHARA Plans Pricing](https://apis.io/plans/ahara/ahara-plans-pricing/)
 
 ## Where to find this API
 
@@ -99,7 +99,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 7.7** — minimal · rubric 0.24.0 · scored 2026-10-17
+**Kin Score 7.5** — minimal · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
@@ -108,7 +108,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Contract governance | 0.0 |
 | Operational transparency | 0.0 |
 | Developer ergonomics | 7.1 |
-| Access clarity | 10.5 |
+| Access clarity | 12.8 |
 
 **Agent readiness 0.0** — human-only
 
@@ -133,8 +133,14 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | — |
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 7.8** — Health
+**Regulatory alignment 3.1** — Health
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ahara/](https://apis.io/providers/ahara/).
 
